@@ -23,13 +23,17 @@ variable "Secondary_AZ" {
 
 ##Service Specific Variables 
 #VPC:
+
+#Needs user input
 variable "cidr_block" {
   default = "1.1.1.1/18"
 }
 
+#Needs user input
 variable "aws_vpc_name" {
   default = "my-test-vpc"
 }
+#Needs user input
 variable "vpc_instance_tenancy" {
   default = "default"
 }
@@ -43,15 +47,19 @@ variable "vpc_enable_dns_hostnames" {
 }
 
 #VPC: Subnets
+#Needs user input
 variable "Private_Subnet_2a_Name" {
   default = "set-a-name"
 }
+#Needs user input
 variable "Private_Subnet_2b_Name" {
   default = "set-a-name"
 }
+#Needs user input
 variable "Private_Subnet_2a_cidr" {
   default = "1.1.2.0/24"
 }
+#Needs user input
 variable "Private_Subnet_2b_cidr" {
   default = "1.1.4.0/24"
 }
