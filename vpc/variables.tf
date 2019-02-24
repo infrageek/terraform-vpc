@@ -1,3 +1,5 @@
+##some of the variables have demo value so that it does not prompt on terraform apply
+
 ##Global Generic Variables
 provider "aws" {
   region = "us-west-2"
